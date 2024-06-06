@@ -1,7 +1,7 @@
 import { oswald } from "../fonts";
 import Image from "next/image";
 import coddiwomple from "../../public/images/portfolioCoddiwomple.png";
-import jstutorial from "../../public/images/jstutorial.png";
+import jstutorial from "../../public/images/portfolioJStutorial.png";
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
