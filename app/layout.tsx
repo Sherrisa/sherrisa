@@ -6,11 +6,12 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sherrisa.com"),
   title: "Sherrisa's Portfolio",
   description:
     "Projects in videography, UX design, instructional design, and app development",
   openGraph: {
-    images: "opengraph-image.jpg",
+    images: "/opengraph-image.jpg",
   },
 };
 
