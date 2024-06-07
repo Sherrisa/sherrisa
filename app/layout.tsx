@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Sherrisa's Portfolio",
   description:
     "Projects in videography, UX design, instructional design, and app development",
+  openGraph: {
+    images: "opengraph-image.jpg",
+  },
 };
 
 export default function RootLayout({
