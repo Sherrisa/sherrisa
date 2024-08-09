@@ -106,6 +106,27 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 To add the custom domain sherrisa.com, read this documentation: [Adding and Configuring a Custom Domain](https://vercel.com/docs/projects/domains/add-a-domain?utm_source=next-site&utm_medium=learnpages&utm_campaign=no-campaign)
 
+## Adding Open Graph Image
+
+- Create an image 1200 x 630
+- Name it opengraph-image.jpg or opengraph-image.png
+- Place it in the app folder
+- Add the following openGraph code to the layout.tsx file
+  ```
+  export const metadata: Metadata = {
+    metadataBase: new URL("https://sherrisa.com"),
+    title: "Sherrisa's Portfolio",
+    description:
+      "Projects in videography, UX design, instructional design, and app development",
+    openGraph: {
+      title: "Sherrisa's Portfolio",
+      description: "Sample instructional design and app development projects",
+      images: "/opengraph-image.jpg",
+    },
+  };
+  ```
+  [Next.js SEO metadata - A complete guide](https://www.youtube.com/watch?v=FIE2-jnZhhU) helped me with the layout.tsx code and [Setting Up a Static OG Image in Next.js](https://www.franciscomoretti.com/blog/setting-up-static-og-image-nextjs-app-router) showed me where to put the image. The Open Graph Protocol documentation can be found here: [Open Graph Protocol](https://ogp.me/).
+
 ## Image Optimization
 
 Optimization was necessary for speed and SEO.

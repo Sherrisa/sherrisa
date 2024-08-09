@@ -27,7 +27,7 @@ export default function Home(): JSX.Element {
           />
         </div>
         <div className="bg-wildflowergreen text-md sm:text-xl text-white h-16 flex items-center justify-center">
-          Relevant content. Engaging design. Clean code.
+          Relevant content. Engaging design.
         </div>
       </header>
       <main className="flex-grow w-full max-w-6xl py-20 sm:py-60">
